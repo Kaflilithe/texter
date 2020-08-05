@@ -1,6 +1,7 @@
 const fs = require('fs')
 const text = fs.readFileSync('text/example.txt').toString()
 
+
 const splitOnLines = text => text.split('\r\n')
 const splitOnWords = text => text.split(' ')
 
